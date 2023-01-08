@@ -169,4 +169,7 @@ psd
 thumb
 sketch
 
+src/assets/
+src/assets/icons/
+
 # End of https://www.toptal.com/developers/gitignore/api/react,node,git

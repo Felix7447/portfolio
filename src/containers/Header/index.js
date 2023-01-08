@@ -1,17 +1,22 @@
 import React from 'react'
-import { HeaderTag, Nav, Label, Aside } from './styles'
+
+import { HeaderTag, Aside } from './styles'
+
+import Navbar from '../../components/Navbar'
+import Button from '../../components/Button'
+import BurgerMenu from '../../components/BurgerMenu'
+
+import ROUTES from '../../routes'
 
 const Header = () => {
+  const { contact } = ROUTES
+
   return (
     <HeaderTag>
-      <Nav>
-        <Label>Home</Label>
-        <Label>About Me</Label>
-        <Label>Skills</Label>
-        <Label>Work</Label>
-      </Nav>
+      <BurgerMenu />
+      <Navbar />
       <Aside>
-        <Label align='right'>Contact me!</Label>
+        <Button route={contact} color='white'>Contact me!</Button>
       </Aside>
     </HeaderTag>
   )

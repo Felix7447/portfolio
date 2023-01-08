@@ -1,22 +1,25 @@
 import React from 'react'
 import { Section, Aside, Main } from './style'
 
+import Title from '../../components/Title'
+import Description from '../../components/Description'
+import BarLoader from '../../components/BarLoader'
+import ResponsiveLoader from '../../components/ResponsiveLoader'
+
 const Introduction = () => {
   return (
     <Section>
       <Aside>
-        <figure>
-          IMAGE
-        </figure>
+        <BarLoader />
       </Aside>
       <Main>
-        <h1> Web Developer & Problem Solver</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+        <Title size={56}> Web Developer & Problem Solver</Title>
+        <Description size={18}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </Description>
       </Main>
       <Aside>
-        <figure>
-          IMAGE
-        </figure>
+        <ResponsiveLoader />
       </Aside>
     </Section>
   )

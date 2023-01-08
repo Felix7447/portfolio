@@ -9,6 +9,11 @@ module.exports = {
     filename: 'bundle.js'
     // publicPath: path.resolve(__dirname, 'dist')
   },
+  resolve: {
+    alias: {
+      '@assets': path.resolve(__dirname, 'src/assets')
+    }
+  },
   mode: 'production',
   module: {
     rules: [
@@ -18,6 +23,10 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
+      },
+      {
+        test: /\.(png|jpg)$/,
+        type: 'asset/resource'
       }
     ]
   },
