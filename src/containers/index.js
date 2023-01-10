@@ -1,12 +1,14 @@
 import Header from './Header'
 import Introduction from './Introduction'
-import Footer from './Footer'
 import AboutMe from './AboutMe'
+import Skills from './Skills'
+import Footer from './Footer'
 
 const layout = () => ({
   Header,
   Introduction,
   AboutMe,
+  Skills,
   Footer
 })
 
