@@ -171,5 +171,6 @@ sketch
 
 src/assets/
 src/assets/icons/
+src/assets/images/
 
 # End of https://www.toptal.com/developers/gitignore/api/react,node,git

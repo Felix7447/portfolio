@@ -14,7 +14,7 @@ const Introduction = () => {
       </Aside>
       <Main>
         <Title size={56}> Web Developer & Problem Solver</Title>
-        <Description size={18}>
+        <Description size='18px'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
         </Description>
       </Main>

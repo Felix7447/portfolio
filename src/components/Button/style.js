@@ -4,6 +4,7 @@ export const ButtonTag = styled.button`
   background-color: transparent;
   margin: 0 1em;
   border: none;
+  cursor: pointer;
 `
 
 export const Anchor = styled.a`
