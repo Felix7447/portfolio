@@ -11,7 +11,8 @@ import Image from '../../components/Image'
 const AboutMe = () => {
   return (
     <Section>
-      <SubTitle size='32px'>About Me</SubTitle>
+
+      <SubTitle size='32px'>About Me <a id='/about' /></SubTitle>
       <Image src={ProfileImage} name='Felix Reyna' width='75%' border='4px white solid' rounded='50%' />
       <aside>
         <Description size='22px'>

@@ -13,6 +13,11 @@ export const Section = styled.section`
     place-items: center;
   }
 
+  a {
+    height: 0px;
+    visibility: none;
+  }
+
   h2 {
     margin: 1em 0 0 2em;
 

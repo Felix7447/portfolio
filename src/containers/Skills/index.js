@@ -15,7 +15,7 @@ import GithubLogo from '@assets/icons/github-logo.png'
 const Skills = () => {
   return (
     <Section>
-      <SubTitle size='32px'>Skills</SubTitle>
+      <SubTitle size='32px'>Skills<a id='/skills' /></SubTitle>
       <Skill src={HtmlLogo} text='HTML' />
       <Skill src={CssLogo} text='CSS' />
       <Skill src={JSLogo} text='JavaScript' />
