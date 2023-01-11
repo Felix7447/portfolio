@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Section } from './style'
-import ProfileImage from '@assets/images/web developer profile.jpeg'
+import ProfileImage from '@assets/images/web-developer-profile.jpeg'
 
 import SubTitle from '../../components/Subtitle'
 import Description from '../../components/Description'

@@ -2,7 +2,15 @@ import React from 'react'
 import { GlobalStyle } from './styles/GlobalStyle'
 import containers from './containers/index'
 
-const { Header, Footer, Introduction, AboutMe, Skills, Work } = containers()
+const {
+  Header,
+  Introduction,
+  AboutMe,
+  Skills,
+  Work,
+  ContactMe,
+  Footer
+} = containers()
 
 export const App = () => {
   return (
@@ -13,6 +21,7 @@ export const App = () => {
       <AboutMe />
       <Skills />
       <Work />
+      <ContactMe />
       <Footer />
     </>
   )

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Section = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  min-height: 77vh;
+  min-height: 85vh;
   margin: 2em 0;
   background-color: black;
   color: white;

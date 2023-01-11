@@ -34,9 +34,9 @@ export const CardInfo = styled.div`
   justify-content: center;
   gap: 0.5em;
   width: 100%;
-  height: 100%;
+  height: 92%;
   position: absolute;
-  bottom: 0%;
+  bottom: 8%;
   opacity: 0;
   transition: all .5s;
 

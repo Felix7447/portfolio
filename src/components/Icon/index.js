@@ -2,13 +2,13 @@ import React from 'react'
 
 import { Figure } from './style'
 
-const Skill = ({ text, src }) => {
+const Icon = ({ text, src, size }) => {
   return (
-    <Figure>
+    <Figure size={size}>
       <img src={src} alt={text} />
       <h3>{text}</h3>
     </Figure>
   )
 }
 
-export default Skill
+export default Icon

@@ -5,15 +5,19 @@ import { Nav } from './styles'
 
 import ROUTES from '../../routes'
 
-const Navbar = () => {
+const Navbar = ({ size, children }) => {
   const { home, about, skills, work } = ROUTES
+  const color = 'white'
 
   return (
     <Nav>
-      <Button route={home} color='white'>Home</Button>
-      <Button route={about} color='white'>About Me</Button>
-      <Button route={skills} color='white'>Skills</Button>
-      <Button route={work} color='white'>Work</Button>
+      <Button route={home} color={color} size={size}>Home</Button>
+      {children}
+      <Button route={about} color={color} size={size}>About Me</Button>
+      {children}
+      <Button route={skills} color={color} size={size}>Skills</Button>
+      {children}
+      <Button route={work} color={color} size={size}>Work</Button>
     </Nav>
   )
 }

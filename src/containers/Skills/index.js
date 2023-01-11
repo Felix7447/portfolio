@@ -3,7 +3,7 @@ import React from 'react'
 import { Section } from './style'
 
 import SubTitle from '../../components/Subtitle'
-import Skill from '../../components/Skill'
+import Icon from '../../components/Icon'
 
 import HtmlLogo from '@assets/icons/html-logo.png'
 import CssLogo from '@assets/icons/css3-logo.png'
@@ -16,12 +16,12 @@ const Skills = () => {
   return (
     <Section>
       <SubTitle size='32px'>Skills<a id='/skills' /></SubTitle>
-      <Skill src={HtmlLogo} text='HTML' />
-      <Skill src={CssLogo} text='CSS' />
-      <Skill src={JSLogo} text='JavaScript' />
-      <Skill src={WebpackLogo} text='Webpack' />
-      <Skill src={SassLogo} text='Sass' />
-      <Skill src={GithubLogo} text='Git Hub' />
+      <Icon src={HtmlLogo} text='HTML' size='180px' />
+      <Icon src={CssLogo} text='CSS' size='180px' />
+      <Icon src={JSLogo} text='JavaScript' size='180px' />
+      <Icon src={WebpackLogo} text='Webpack' size='180px' />
+      <Icon src={SassLogo} text='Sass' size='180px' />
+      <Icon src={GithubLogo} text='Git Hub' size='180px' />
     </Section>
   )
 }

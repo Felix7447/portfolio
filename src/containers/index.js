@@ -3,6 +3,7 @@ import Introduction from './Introduction'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
 import Work from './Work'
+import ContactMe from './ContactMe'
 import Footer from './Footer'
 
 const layout = () => ({
@@ -11,6 +12,7 @@ const layout = () => ({
   AboutMe,
   Skills,
   Work,
+  ContactMe,
   Footer
 })
 
