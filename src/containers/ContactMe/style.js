@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  min-height: 77vh;
+  min-height: 100vh;
   margin: 2em 0;
   
   @media (max-width: 720px) {
@@ -11,7 +11,6 @@ export const Section = styled.section`
   }
 
   h2 {
-    margin: 1em 0;
     grid-column: span 12;
     justify-self: center;
 
@@ -37,7 +36,6 @@ export const Contact = styled.div`
   justify-self: center;
   display: flex;
   gap: 64px;
-  margin: 2em 0;
   
   @media (max-width: 720px) {
     flex-direction: column;

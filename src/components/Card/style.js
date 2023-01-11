@@ -12,13 +12,13 @@ export const CardTag = styled.div`
     transform: scale(1.1);
 
     div { 
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.5);
       opacity: 1;
     }
   }
 
   img {
-    width: 224px;
+    width: 292px;
     border: 4px white solid;
     border-radius: 12px;
   }
@@ -34,9 +34,9 @@ export const CardInfo = styled.div`
   justify-content: center;
   gap: 0.5em;
   width: 100%;
-  height: 92%;
+  height: 100%;
   position: absolute;
-  bottom: 8%;
+  bottom: 0;
   opacity: 0;
   transition: all .5s;
 

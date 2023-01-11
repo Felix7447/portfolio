@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const Section = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  min-height: 85vh;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
   margin: 2em 0;
   background-color: black;
   color: white;
@@ -30,6 +31,7 @@ export const Carousel = styled.div`
   overflow-x: scroll;
   grid-column: span 12;
   padding: 0 1em;
+  align-self: center;
   cursor: pointer;
 
   &::-webkit-scrollbar {
@@ -57,9 +59,9 @@ export const Carousel = styled.div`
     }
 
     &::-webkit-scrollbar-thumb {
-    background-color: rgba(94, 92, 92, 1);
-    border-radius: 24px;
-  }
+      background-color: rgba(94, 92, 92, 1);
+      border-radius: 24px;
+    }
   }
 
   div {

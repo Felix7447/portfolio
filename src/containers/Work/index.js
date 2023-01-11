@@ -9,7 +9,7 @@ import Projects from '../../routes/projects'
 
 const Work = () => {
   return (
-    <Section>
+    <Section data-aos='fade-up'>
       <SubTitle size='32px'>Work <a id='/work' /></SubTitle>
       <Carousel>
         {

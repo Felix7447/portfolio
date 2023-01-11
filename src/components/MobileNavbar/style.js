@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components'
 
 export const MenuContainer = styled.div`
+  display: none;
   position: absolute;
   top: 15vh;
   left: -700px;
@@ -16,6 +17,7 @@ export const MenuContainer = styled.div`
   
 
   @media (max-width: 720px) {
+    display: block;
     width: 80%;
     height: 100%;
     background-color: black;

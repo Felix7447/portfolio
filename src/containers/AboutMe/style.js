@@ -4,7 +4,7 @@ export const Section = styled.section`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 84px auto;
-  min-height: 85vh;
+  min-height: 100vh;
   margin: 2em 0;
   background-color: black;
   color: white;

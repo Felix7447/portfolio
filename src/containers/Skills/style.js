@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  min-height: 77vh;
+  min-height: 100vh;
   margin: 2em 0;
   
   @media (max-width: 720px) {

@@ -10,9 +10,8 @@ import Image from '../../components/Image'
 
 const AboutMe = () => {
   return (
-    <Section>
-
-      <SubTitle size='32px'>About Me <a id='/about' /></SubTitle>
+    <Section data-aos='fade-up'>
+      <SubTitle size='32px'><a id='/about' /> About Me </SubTitle>
       <Image src={ProfileImage} name='Felix Reyna' width='75%' border='4px white solid' rounded='50%' />
       <aside>
         <Description size='22px'>

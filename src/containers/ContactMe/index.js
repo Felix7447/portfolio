@@ -15,9 +15,9 @@ const size = '124px'
 
 const ContactMe = () => {
   return (
-    <Section>
+    <Section data-aos='fade-up'>
       <SubTitle size='42px'>
-        <i>Contact Me!</i>
+        <i>Get in Touch</i>
         <a id='/contact' />
       </SubTitle>
       <Contact>

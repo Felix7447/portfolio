@@ -10,6 +10,7 @@ export const ButtonTag = styled.button`
 export const Anchor = styled.a`
   color: ${props => props.color || 'black'};
   text-decoration: none;
+  
   h3 {
     font-weight: inherit;
     font-size: ${props => props.size};

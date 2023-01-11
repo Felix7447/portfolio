@@ -6,7 +6,6 @@ export const Section = styled.section`
   place-items: center;
   min-height: 77vh;
   margin: 2em 0;
-  margin-top: 18vh;
 `
 
 export const Main = styled.main`
