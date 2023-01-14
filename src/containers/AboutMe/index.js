@@ -15,9 +15,13 @@ const AboutMe = () => {
       <Image src={ProfileImage} name='Felix Reyna' width='75%' border='4px white solid' rounded='50%' />
       <aside>
         <Description size='22px'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Hi! I'm <b>Felix Reyna</b>, nice to meet you. I'm a Frontend Web Developer with skills on
+          <span> HTML, CSS, JavaScript and currently practicing React</span>. Also I'm a
+          Telecommunications Engineer student from Universidad Jose Antonio Paez in Venezuela where I
+          collaborated with colleagues to develop, build projects & solve problems. Passionate for
+          programming, facing problems & self-motivated to achieve my goals. Never Give Up!
         </Description>
-        <Button color='white' size='24px'>Download CV</Button>
+        <Button color='white' size='24px' route='/' target='_blank'>Download Resume</Button>
       </aside>
     </Section>
   )

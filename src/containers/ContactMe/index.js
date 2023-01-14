@@ -32,10 +32,12 @@ const ContactMe = () => {
         </Button>
       </Contact>
       <P size='24px'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        Don't be shy! please sent me an Email or text me on Linkedin I will feel happy about it
+        <span> &#128516;</span> also you can see my projects on my Github. Remember:
+        <i> "Opportunities will come, just keep going & get prepared"</i>
         <br />
         <br />
-        -Felix Reyna
+        <i>-Felix Reyna</i>
       </P>
     </Section>
   )

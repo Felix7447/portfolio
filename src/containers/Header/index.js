@@ -16,7 +16,7 @@ const Header = () => {
       <BurgerMenu />
       <Navbar />
       <Aside>
-        <Button route={contact} color='white'>Contact me!</Button>
+        <Button route={contact} color='white'>Get in touch!</Button>
       </Aside>
     </HeaderTag>
   )

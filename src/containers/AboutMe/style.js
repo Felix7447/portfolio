@@ -50,7 +50,7 @@ export const Section = styled.section`
     @media (max-width: 960px) {
       grid-column: span 12;
       text-align: center;
-      margin: 2em 0;
+      /* margin: 2em 0; */
     }
 
     p {

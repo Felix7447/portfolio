@@ -16,7 +16,8 @@ const Introduction = () => {
       <Main>
         <Title size={56}> Web Developer & Problem Solver</Title>
         <Description size='18px'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          Develop - Design - Create - Solve - Enjoy <br />
+          Frontend Developer who enjoys to solve problems
         </Description>
       </Main>
       <Aside>
