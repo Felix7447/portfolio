@@ -19,7 +19,7 @@ export const MenuContainer = styled.div`
   @media (max-width: 720px) {
     display: block;
     width: 80%;
-    height: 100%;
+    height: 39.6em;
     background-color: black;
     border: 2px #333 solid;
 
@@ -28,7 +28,7 @@ export const MenuContainer = styled.div`
       position: absolute;
       left: 101%;
       width: 25%;
-      height: 101%;
+      height: 100vh;
       background-color: rgba(0, 0, 0, 0.3);
     }
 

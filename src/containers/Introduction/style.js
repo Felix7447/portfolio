@@ -11,6 +11,10 @@ export const Section = styled.section`
 export const Main = styled.main`
   grid-column: span 6;
   text-align: center;
+
+  p {
+    margin-top: 1em;
+  }
   
   @media (max-width: 960px) {
     grid-column: span 12;

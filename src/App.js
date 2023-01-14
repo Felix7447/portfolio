@@ -2,6 +2,9 @@ import React from 'react'
 import { GlobalStyle } from './styles/GlobalStyle'
 import containers from './containers/index'
 
+import AppContext from './utils/Context/AppContext'
+import useShowMenu from './utils/Hooks/useShowMenu'
+
 const {
   Header,
   Introduction,
@@ -13,8 +16,10 @@ const {
 } = containers()
 
 export const App = () => {
+  const showMenu = useShowMenu()
+
   return (
-    <>
+    <AppContext.Provider value={showMenu}>
       <GlobalStyle />
       <Header />
       <Introduction />
@@ -23,6 +28,6 @@ export const App = () => {
       <Work />
       <ContactMe />
       <Footer />
-    </>
+    </AppContext.Provider>
   )
 }

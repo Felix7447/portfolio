@@ -1,14 +1,20 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect } from 'react'
+
+import useScrollLock from '../../utils/Hooks/useScrollLock'
+
 import burgerMenuImage from '../../assets/icons/burger-menu.png'
 import MobileNavbar from '../MobileNavbar'
+import AppContext from '../../utils/Context/AppContext'
 
 import { Figure, Image, Button } from './style'
 
 const BurgerMenu = () => {
-  const [showMenu, setShowMenu] = useState(false)
+  const { showMenu, toggle } = useContext(AppContext)
+  const { toggleScrollLock } = useScrollLock()
 
   const handleMenu = () => {
-    setShowMenu(!showMenu)
+    toggle()
+    toggleScrollLock()
   }
 
   return (
@@ -18,7 +24,7 @@ const BurgerMenu = () => {
           <Image src={burgerMenuImage} alt='Burger Menu' />
         </Figure>
       </Button>
-      <MobileNavbar show={showMenu} />
+      <MobileNavbar show={showMenu} toggleScrollLock={toggleScrollLock} />
     </>
   )
 }
