@@ -2,7 +2,7 @@ import React from 'react'
 
 import { FooterTag } from './style'
 
-import Navbar from '../../components/Navbar'
+import Navbar from '@components/Navbar'
 
 const Footer = () => {
   return (

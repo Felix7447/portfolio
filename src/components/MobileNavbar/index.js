@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 
-import AppContext from '../../utils/Context/AppContext'
+import AppContext from '@utils/Context/AppContext'
 
-import ROUTES from '../../routes'
+import ROUTES from '@routes'
 
 import { MenuContainer } from './style'
 

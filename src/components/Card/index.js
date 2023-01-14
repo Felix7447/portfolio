@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { CardTag, CardInfo } from './style'
-import Button from '../../components/Button'
+import Button from '@components/Button'
 
 const Card = ({ name, src, github, link }) => {
   return (

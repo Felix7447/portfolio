@@ -6,10 +6,10 @@ import EmailLogo from '@assets/icons/gmail-logo.png'
 import LinkedinLogo from '@assets/icons/linkedin-logo.png'
 import GithubLogo from '@assets/icons/github-logo.png'
 
-import SubTitle from '../../components/Subtitle'
-import Button from '../../components/Button'
-import Image from '../../components/Image'
-import P from '../../components/Description'
+import SubTitle from '@components/Subtitle'
+import Button from '@components/Button'
+import Image from '@components/Image'
+import P from '@components/Description'
 
 const size = '124px'
 

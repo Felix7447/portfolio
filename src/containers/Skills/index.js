@@ -2,8 +2,8 @@ import React from 'react'
 
 import { Section } from './style'
 
-import SubTitle from '../../components/Subtitle'
-import Icon from '../../components/Icon'
+import SubTitle from '@components/Subtitle'
+import Icon from '@components/Icon'
 
 import HtmlLogo from '@assets/icons/html-logo.png'
 import CssLogo from '@assets/icons/css3-logo.png'

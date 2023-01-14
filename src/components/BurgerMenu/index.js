@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
 
-import useScrollLock from '../../utils/Hooks/useScrollLock'
-
-import burgerMenuImage from '../../assets/icons/burger-menu.png'
-import MobileNavbar from '../MobileNavbar'
-import AppContext from '../../utils/Context/AppContext'
-
 import { Figure, Image, Button } from './style'
+
+import burgerMenuImage from '@assets/icons/burger-menu.png'
+
+import MobileNavbar from '../MobileNavbar'
+
+import useScrollLock from '@utils/Hooks/useScrollLock'
+import AppContext from '@utils/Context/AppContext'
 
 const BurgerMenu = () => {
   const { showMenu, toggle } = useContext(AppContext)

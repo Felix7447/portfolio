@@ -1,9 +1,9 @@
 import React from 'react'
-import Button from '../Button'
 
 import { Nav } from './styles'
 
-import ROUTES from '../../routes'
+import Button from '@components/Button'
+import ROUTES from '@routes'
 
 const Navbar = ({ size, children }) => {
   const { home, about, skills, work } = ROUTES

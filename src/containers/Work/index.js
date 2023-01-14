@@ -2,10 +2,10 @@ import React from 'react'
 
 import { Section, Carousel } from './style'
 
-import SubTitle from '../../components/Subtitle'
-import Card from '../../components/Card'
+import SubTitle from '@components/Subtitle'
+import Card from '@components/Card'
 
-import Projects from '../../routes/projects'
+import Projects from '@routes/projects'
 
 const Work = () => {
   return (

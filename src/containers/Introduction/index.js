@@ -2,10 +2,10 @@ import React from 'react'
 
 import { Section, Aside, Main } from './style'
 
-import Title from '../../components/Title'
-import Description from '../../components/Description'
-import BarLoader from '../../components/BarLoader'
-import ResponsiveLoader from '../../components/ResponsiveLoader'
+import Title from '@components/Title'
+import Description from '@components/Description'
+import BarLoader from '@components/BarLoader'
+import ResponsiveLoader from '@components/ResponsiveLoader'
 
 const Introduction = () => {
   return (

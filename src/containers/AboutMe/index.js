@@ -3,10 +3,12 @@ import React from 'react'
 import { Section } from './style'
 import ProfileImage from '@assets/images/web-developer-profile.jpeg'
 
-import SubTitle from '../../components/Subtitle'
-import Description from '../../components/Description'
-import Button from '../../components/Button'
-import Image from '../../components/Image'
+import SubTitle from '@components/Subtitle'
+import Description from '@components/Description'
+import Button from '@components/Button'
+import Image from '@components/Image'
+
+import resume from '@public/ResumePDF.pdf'
 
 const AboutMe = () => {
   return (
@@ -21,7 +23,9 @@ const AboutMe = () => {
           collaborated with colleagues to develop, build projects & solve problems. Passionate for
           programming, facing problems & self-motivated to achieve my goals. Never Give Up!
         </Description>
-        <Button color='white' size='24px' route='/' target='_blank'>Download Resume</Button>
+        <Button color='white' size='24px' route={resume} target='_blank'>
+          Download Resume
+        </Button>
       </aside>
     </Section>
   )
