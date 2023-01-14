@@ -37,6 +37,13 @@ export const Contact = styled.div`
   display: flex;
   gap: 64px;
   
+  button {
+    transition: all .5s ;
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+  
   @media (max-width: 720px) {
     flex-direction: column;
     gap: 28px;
